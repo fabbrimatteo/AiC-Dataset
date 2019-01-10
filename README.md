@@ -77,8 +77,6 @@ After the data download, your `JTA-Dataset` directory will contain the following
       
 - `joint.py` and `pose.py`: support classes for the scripts.
 
-- `README.md`: readme with a link to this page.
-
 
 ## Annotations 
 
