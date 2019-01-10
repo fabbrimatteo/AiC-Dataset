@@ -138,9 +138,9 @@ The association between numerical identifier and type of joint is the following:
 
 ## Citation
 
-This dataset was introduced in the paper "Can Adversarial Networks Hallucinate Occluded People With a Plausible Aspect?".
+This dataset was introduced in the paper "Can Adversarial Networks Hallucinate Occluded People With a Plausible Aspect?"(link TODO).
 We believe in open research and we are happy if you find this data useful.   
-If you use it, please cite our works [work](TODO).
+If you use it, please cite our works.
 
 ```latex
 @inproceedings{TODO,
