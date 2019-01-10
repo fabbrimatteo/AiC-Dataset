@@ -3,7 +3,7 @@
 AiC (_Attributes in Crowd-) is a novel synthetic dataset for people attribute recognition in presence of strong occlusions created by exploiting the highly photorealistic video game *Grand Theft Auto V*. 
 It features 125,000 samples, all being a unique person, each of which is automatically labeled with information concerning visual attributes, as well as joint locations.
 
-![banner](https://github.com/BobbySolo/JTA-Utils/blob/master/aic_banner.jpg)
+![banner](https://github.com/fabbrimatteo/AiC-Dataset/blob/master/aic_banner.jpg)
 
 
 ## Obtain the Dataset
@@ -38,25 +38,31 @@ We will promptly reply with the **`AiC-Key`**.
 
 After the data download, your `AiC-Dataset` directory will contain the following files:
 
-- `crops`: directory with image samples
+- `crops`: directory with image samples. For each sample `x` we have:
+
+    - `x.jpg`: fully visible sample
+	- `x_occ.jpg`: occluded sample
 
 - `annotations.json`: annotation file of the whole dataset
 
-- `train.json`: train split containing the IDs used as training set
+- `train.json`: train split containing the ids used as training set
 
-- `test.json`: test split containing the IDs used as test set
+- `test.json`: test split containing the ids used as test set
 
 
 ## Annotations 
 
 
-The annotation file consists of a list of dictionaries. Each element of the list is a sample of the dataset. Wach dictionary is organized as follows:
+The annotation file consists of a list of dictionaries. Each element of the list is a sample of the dataset. Each dictionary is organized as follows:
 
 | Key          | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
 | `attributes` | list of binary attributes; see 'Attributes' subsection      |
 | `pose`       | list of joints; see 'Joins' subsection                      |
 | `id`         | unique identifier of the sample                             |
+
+
+**IMPORTANT**: given the `**id**`, the correspondent fully visible image is `crops/**id**.jpg`, while the occluded one is `crops/**id**_occ.jpg`.
 
 
 ### Attributes
