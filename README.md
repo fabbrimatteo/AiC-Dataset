@@ -140,13 +140,22 @@ The association between numerical identifier and type of joint is the following:
 
 This dataset was introduced in the paper "Can Adversarial Networks Hallucinate Occluded People With a Plausible Aspect?".
 We believe in open research and we are happy if you find this data useful.   
-If you use it, please cite our [work](TODO).
+If you use it, please cite our works [work](TODO).
 
 ```latex
 @inproceedings{TODO,
    title     = {Can Adversarial Networks Hallucinate Occluded People With a Plausible Aspect?},
    author    = {Fulgeri, Federico and Fabbri, Matteo and Alletto, Stefano and Calderara, Simone and Cucchiara, Rita},
    booktitle = {arxiv},
+   year      = {2018}
+ }
+```
+
+```latex
+@inproceedings{fabbri2018learning,
+   title     = {Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World},
+   author    = {Fabbri, Matteo and Lanzi, Fabio and Calderara, Simone and Palazzi, Andrea and Vezzani, Roberto and Cucchiara, Rita},
+   booktitle = {European Conference on Computer Vision (ECCV)},
    year      = {2018}
  }
 ```
