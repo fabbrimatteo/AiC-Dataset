@@ -2,7 +2,7 @@
 
 cd $(dirname $0)
 
-echo -n "> Enter the JTA-Key we've sent you by email: "
+echo -n "> Enter the AiC-Key we've sent you by email: "
 read key
 key=$(echo $key | tr -dc '[:alnum:]-')
 
