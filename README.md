@@ -1,6 +1,6 @@
 # AiC Dataset
 
-AiC (_Attributes in Crowd-) is a novel synthetic dataset for people attribute recognition in presence of strong occlusions created by exploiting the highly photorealistic video game *Grand Theft Auto V*. 
+AiC (_Attributes in Crowd_) is a novel synthetic dataset for people attribute recognition in presence of strong occlusions created by exploiting the highly photorealistic video game *Grand Theft Auto V*. 
 It features 125,000 samples, all being a unique person, each of which is automatically labeled with information concerning visual attributes, as well as joint locations.
 
 ![banner](https://github.com/fabbrimatteo/AiC-Dataset/blob/master/aic_banner.jpg)
