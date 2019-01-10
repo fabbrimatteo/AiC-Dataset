@@ -62,7 +62,7 @@ The annotation file consists of a list of dictionaries. Each element of the list
 | `id`         | unique identifier of the sample                             |
 
 
-**IMPORTANT**: given the `**id**`, the correspondent fully visible image is `crops/**id**.jpg`, while the occluded one is `crops/**id**_occ.jpg`.
+**IMPORTANT**: given the `id`, the correspondent fully visible image is `crops/id.jpg`, while the occluded one is `crops/id_occ.jpg`.
 
 
 ### Attributes
@@ -92,8 +92,8 @@ The list of binary attributes is ordered as follows:
 19: shoes-Leather
 20: shoes-Sport
 21: shoes-Boots
-21: Backpack
-21: Eyeglasses
+22: Backpack
+23: Eyeglasses
 ```
 
 ### Joins
