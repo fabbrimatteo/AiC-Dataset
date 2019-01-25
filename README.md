@@ -146,7 +146,7 @@ If you use it, please cite our works.
 @article{fulgeri2019can,
   title     = {Can Adversarial Networks Hallucinate Occluded People With a Plausible Aspect?},
   author    = {Fulgeri, Federico and Fabbri, Matteo and Alletto, Stefano and Calderara, Simone and Cucchiara, Rita},
-  journal = {arXiv preprint arXiv:1901.08097},
+  journal   = {arXiv preprint arXiv:1901.08097},
   year      = {2019}
 }
 ```
@@ -155,7 +155,7 @@ If you use it, please cite our works.
 @inproceedings{fabbri2018learning,
   title     = {Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World},
   author    = {Fabbri, Matteo and Lanzi, Fabio and Calderara, Simone and Palazzi, Andrea and Vezzani, Roberto and Cucchiara, Rita},
-  booktitle   = {European Conference on Computer Vision (ECCV)},
+  booktitle = {European Conference on Computer Vision (ECCV)},
   year      = {2018}
 }
 ```
