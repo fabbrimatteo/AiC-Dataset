@@ -8,31 +8,7 @@ It features 125,000 samples, all being a unique person, each of which is automat
 
 ## Obtain the Dataset
 
-To obtain the Dataset, you first need the **`AiC-Key`**, so please send an email to [Ing. Matteo Fabbri](http://imagelab.ing.unimore.it/imagelab/person.asp?idpersona=99) (with object "AiC Dataset Download") stating:
-
-- Your name, title and affilation
-
-- Your intended use of the data
-
-- The following statement:
-    > With this email we declare that we will use the AiC Dataset for research and educational purposes only, since we are aware that commercial use is prohibited. We also undertake to purchase a copy of Grand Theft Auto V.
-
-We will promptly reply with the **`AiC-Key`**.
-
-## How to Start
-
-- Clone the _AiC-Dataset_ repo and run `download_data.sh` to download samples and annotations.
-  ```bash
-  git clone https://github.com/fabbrimatteo/AiC-Dataset.git
-  cd AiC-Dataset
-  bash download_data.sh
-  ```
-
-- In order to start your download you will be asked to enter the **`AiC-Key`** we have sent you by email.
-
-- If you want to manually download the data, use the following link:
-
-  - [https://drive.google.com/open?id=](https://drive.google.com/open?id=)**`AiC-Key`**
+You can download AiC [here](https://aimagelab.ing.unimore.it/go/AiC). By downloading the dataset you agree on the following statement: "I declare that I will use the AiC Dataset for research and educational purposes only, since I am aware that commercial use is prohibited. I also undertake to purchase a copy of Grand Theft Auto V."
 
 ## `AiC-Dataset` Contents
 
